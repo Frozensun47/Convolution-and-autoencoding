@@ -6,15 +6,17 @@ Hence for each layer , I am saving the layer-output images in a separate folder 
 To add to the aim , I have made a simple autoencoder type model structure ,
 
 In the model achitecture the first 4 layers are downsampling the inuput image , later 4 are upsampling , regularisation and relu activation is used .
+
+Model architecture
 ![Model architecture](model.png) 
 
-
+you can see the input
 ![you can see the input ](inp.png) 
 
-
+output image afte 10 epochs
 ![output image afte 10 epochs](output_image.jpg)
 
-
+output image after 40 epochs 
 ![output image after 40 epochs ](output_image_40epochs.jpg)
 
 
