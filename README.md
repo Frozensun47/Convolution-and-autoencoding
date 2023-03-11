@@ -4,9 +4,19 @@ The aim of this project is to understand convolution layers .
 Hence for each layer , I am saving the layer-output images in a separate folder for visualization.
 
 To add to the aim , I have made a simple autoencoder type model structure ,
-In the model achitecture the first 4 layers are downsampling the inuput image , later 4 are upsampling , regularisation and relu activation is used .
 
-you can see the input vs output image,
+In the model achitecture the first 4 layers are downsampling the inuput image , later 4 are upsampling , regularisation and relu activation is used .
+![alt text]('model.png') 
+
+you can see the input 
+![alt text]('inp.png') 
+
+output image afte 10 epochs
+![alt text]('output_image.jpg')
+
+output image after 40 epochs 
+![alt text]('output_image_40epochs.jpg')
+
 
 the areas which i believe (for now) that can be imporved are , change in model architecutre by adding skip connections like RESNets and changing the loss function . 
 I also wish to run this model for 100 epochs , and after every 5/10 epoch , save images of the predicted output and , of some selected kernels ..
